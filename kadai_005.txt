@@ -1,0 +1,15 @@
+ 147  cd /Users/utsunomiyanagi/Desktop
+  148  mkdir git_challenge
+  149  cd git_challenge
+  150  git init
+  151  git add .
+  152  echo Hello,World > hello_world.txt
+  153  ls
+  154  cat hello_world.txt
+  155  git add hello_world.txt
+  156  git commit -m hello,world
+  157  echo こんにちは、世界 >> hello_world.txt
+  158  git add hello_world.txt
+  159  git commit -m こんにちは、世界
+  160  git log --oneline -- hello_world.txt
+
